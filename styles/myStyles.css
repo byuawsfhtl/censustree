@@ -1,0 +1,108 @@
+.active {
+  background-color: rgb(73, 73, 73);
+}
+
+body {
+  font-family: "Palatino", "Courier New", monospace;
+  background-color: #fffcf4;
+}
+
+.brand {
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.container a {
+  color: #1676d0;
+}
+.content-header {
+  border-bottom: #1676d0 solid 0.35rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown {
+  max-width: 45%;
+}
+
+.form-container {
+  justify-content: space-around;
+}
+.ftco-navbar-light {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.ftco-navbar-light .navbar-nav {
+  padding-bottom: 0 !important;
+}
+
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  background-image: url("../assets/background.jpeg");
+}
+.header .row .col-md-6 a {
+  font-size: 2rem;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.info-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 0;
+  background-color: #fffcf4 !important;
+}
+
+.info-container p {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.logo {
+  align-self: center;
+}
+
+nav .navbar-nav li a:hover {
+  color: rgb(84, 197, 235) !important;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: lightblue !important;
+  padding: 1rem !important;
+}
+
+.nav-link:hover {
+  color: #add7e6 !important;
+}
+
+.spacer {
+  height: 100px;
+}
+.submit-btn {
+  align-self: flex-end;
+  background-color: #1676d0 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .btn-container {
+    text-align: right;
+  }
+  .form-container {
+    justify-content: start;
+    padding-left: 3rem;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .info-container {
+    width: 80%;
+  }
+}
